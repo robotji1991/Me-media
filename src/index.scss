@@ -1,3 +1,12 @@
+:root:root {
+  // 定制 antd-mobile 的主题
+  --adm-color-primary: #fc6627;
+  --adm-font-family: 'PingFangSC-Regular';
+
+  // 自己创建的全局 CSS 变量
+  --font-size: 16px;
+}
+
 html,
 body {
   margin: 0;
@@ -14,4 +23,13 @@ p,
 h2,
 h3 {
   margin: 0;
+}
+
+// 字体图标的基础样式
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
 }
